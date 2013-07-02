@@ -1,0 +1,10 @@
+@import "compass/css3";
+
+@import "fhreset";
+@import "bits";
+@import "typography";
+
+body {
+	background: $grey;
+	padding: 20px;
+}
