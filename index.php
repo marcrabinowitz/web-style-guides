@@ -26,6 +26,6 @@ template. Cool, right?</p>
 	<h6>Heading 6</h6>
 </main>
 
-
+<div class="square">This is a big square for Lisa</div>
 </body>
 </html>
