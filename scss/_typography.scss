@@ -7,23 +7,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 2.13em;
 }
 
 h2 {
-	font-size: 22px;
+	font-size: 1.47em;
 }
 
 h3 {
-	font-size: 18px;
+	font-size: 1.2em;
 }
 
 h4 {
-	font-size: 16px;
+	font-size: 1em;
 }
 
 h5 {
-	font-size: 14px;
+	font-size: 0.9em;
 }
 
 h6 {
@@ -36,4 +36,10 @@ p {
 
 * + p {
 	margin-top: 1em;
+}
+
+blockquote {
+	margin: 1em;
+	font-style: italic;
+	font-size: 1.15em;
 }
