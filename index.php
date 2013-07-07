@@ -5,6 +5,8 @@
 <meta charset="utf-8" />
 <title>Web Style Guides</title>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript">
   (function() {
@@ -22,10 +24,6 @@
 </head>
 
 <body>
-
-<div class="mbProject">
-	<p>a <a href="http://www.mburnette.com">Marcus Burnette</a> project</p>
-</div>
 
 <div class="pageWrap">
 
@@ -85,6 +83,10 @@
 
 	</main>
 
+</div>
+
+<div class="mbProject">
+	<p>a <a href="http://www.mburnette.com">Marcus Burnette</a> project</p>
 </div>
 
 </body>
