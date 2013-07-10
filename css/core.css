@@ -194,14 +194,14 @@ main h2.included {
 /* line 64, ../scss/core.scss */
 .kitItem {
   float: left;
-  width: 33%;
+  width: 50%;
   padding: 1em;
 }
 /* line 68, ../scss/core.scss */
 .kitItem h2 {
   text-transform: uppercase;
   padding: 0.5em 1em;
-  background: #d9ab20;
+  background: #006699;
   color: #fff;
   font-size: 1em;
 }
@@ -210,7 +210,7 @@ main h2.included {
   font-size: 0.9em;
 }
 /* line 78, ../scss/core.scss */
-.kitItem:nth-of-type(4n) {
+.kitItem:nth-of-type(odd) {
   clear: both;
 }
 @media (max-width: 40em) {
