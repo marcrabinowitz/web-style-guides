@@ -59,19 +59,19 @@ main {
 
 .kitItem {
 	float: left;
-	width: 50%;
+	width: 33%;
 	padding: $gap;
 	h2 {
 		text-transform: uppercase;
 		padding: $gap/2 $gap;
-		background: #aaa;
+		background: #388bbb;
 		color: #fff;
 		font-size: 1em;
 	}
 	p {
 		font-size: 0.9em;
 	}
-	&:nth-of-type(odd){
+	&:nth-of-type(4n){
 		clear: both;
 	}
 	@media (max-width: 40em) {
