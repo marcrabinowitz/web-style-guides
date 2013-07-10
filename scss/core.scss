@@ -64,12 +64,12 @@ main {
 	h2 {
 		text-transform: uppercase;
 		padding: $gap/2 $gap;
-		background: #792f2f;
+		background: #d9ab20;
 		color: #fff;
 		font-size: 1em;
 	}
 	p {
-		font-size: 1.2em;
+		font-size: 0.9em;
 	}
 	&:nth-of-type(4n){
 		clear: both;
