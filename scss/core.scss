@@ -13,7 +13,7 @@ body {
 }
 
 a {
-	color: #006699;
+	color: $mainColor;
 	text-decoration: none;
 	&:hover, &:focus {
 		color: red;
@@ -37,7 +37,7 @@ header {
 		text-align:center;
 		font-weight: bold;
 		font-size: 3em;
-		color: #006699;
+		color: $mainColor;
 		@include transform(rotate(-1deg));
 	}
 	.content {
@@ -108,7 +108,7 @@ main {
 }
 
 .mbProject {
-	background: #006699;
+	background: $mainColor;
 	color: #0093de;
 	padding: 0 $gap/2;
 	text-align: center;
