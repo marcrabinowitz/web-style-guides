@@ -1,11 +1,12 @@
 /* line 1, ../scss/_fhreset.scss */
 * {
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 /* ----- Reset all CSS ----- */
-/* line 7, ../scss/_fhreset.scss */
+/* line 6, ../scss/_fhreset.scss */
 .redNote {
   padding: 5px;
   background-color: #990000;
@@ -14,7 +15,7 @@
 }
 
 /* ----- Reset all CSS ----- */
-/* line 16, ../scss/_fhreset.scss */
+/* line 15, ../scss/_fhreset.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, fieldset, form, label, legend, caption, tbody, tfoot, thead {
   margin: 0;
   padding: 0;
@@ -29,19 +30,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 /* ----- floats ----- */
-/* line 20, ../scss/_fhreset.scss */
+/* line 19, ../scss/_fhreset.scss */
 .fltRight {
   float: right;
   margin: 0 0 0 15px;
 }
 
-/* line 25, ../scss/_fhreset.scss */
+/* line 24, ../scss/_fhreset.scss */
 .fltLeft {
   float: left;
   margin: 0 15px 0 0;
 }
 
-/* line 30, ../scss/_fhreset.scss */
+/* line 29, ../scss/_fhreset.scss */
 .clearfloat {
   clear: both;
   height: 0;
@@ -50,7 +51,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 /* ----- form styles ----- */
-/* line 38, ../scss/_fhreset.scss */
+/* line 37, ../scss/_fhreset.scss */
 .grippie {
   display: none !important;
 }
